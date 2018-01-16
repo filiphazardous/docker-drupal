@@ -1,6 +1,6 @@
 # Drupal 8 in a container
 
-[![Drupal 8.4.0](https://img.shields.io/badge/Drupal-8.4.0-green.svg)](https://github.com/weahead/docker-drupal/tree/v8.x)
+[![Drupal 8.4.2](https://img.shields.io/badge/Drupal-8.4.2-green.svg)](https://github.com/weahead/docker-drupal/tree/v8.x)
 
 
 ## Layout of this repository
@@ -23,7 +23,7 @@ This container includes:
 An example of usage can be found at [example](example).
 
 1. Create a `Dockerfile` with `FROM weahead/drupal:<tag>`. Where `tag` is a
-   version number like `8.4.0`.
+   version number like `8.4.2`.
 
 2. Make sure you add `VOLUME /var/www/html` to the end of your `Dockerfile`.
 
